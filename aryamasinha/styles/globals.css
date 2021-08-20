@@ -1,9 +1,16 @@
+:root{
+  --text-color : #FFD371;
+  --backg-color: #716F81;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: var(--backg-color);
+    color: var(--text-color);
 }
 
 a {
@@ -14,3 +21,4 @@ a {
 * {
   box-sizing: border-box;
 }
+

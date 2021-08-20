@@ -4,8 +4,8 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div>
-      Landing Page
-    </div>
+    <h1 className={styles.center}>
+      21.09.21
+    </h1>
   )
 }
