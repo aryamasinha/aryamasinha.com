@@ -1,6 +1,5 @@
 :root{
   --text-color : #FFD371;
-  --backg-color: #716F81;
 }
 
 html,
@@ -9,8 +8,11 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-color: var(--backg-color);
-    color: var(--text-color);
+  color: var(--text-color);
+  background: rgba(63, 44, 65, 1.0);
+background: -webkit-linear-gradient(right, rgba(63, 44, 65, 1.0), rgba(92, 82, 127, 1.0));
+background: -moz-linear-gradient(right, rgba(63, 44, 65, 1.0), rgba(92, 82, 127, 1.0));
+background: linear-gradient(to left, rgba(63, 44, 65, 1.0), rgba(92, 82, 127, 1.0));
 }
 
 a {
