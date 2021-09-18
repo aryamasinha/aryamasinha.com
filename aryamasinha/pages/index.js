@@ -7,10 +7,10 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Aryama</title>
-        <link rel="icon" href="/favicon.ico" />
+       
       </Head>
 
-    
+      
     </div>
   )
 }
