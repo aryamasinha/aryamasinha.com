@@ -119,3 +119,15 @@
     flex-direction: column;
   }
 }
+
+.CustomDesign{
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border-radius: 1rem !important;
+}
+
+.CustomButtonDesign{
+  color: #ffffff !important;
+  background-color: gray !important;
+  border-radius: 1rem !important;
+}
