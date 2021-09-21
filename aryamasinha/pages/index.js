@@ -32,7 +32,7 @@ export default function Home() {
          <Card className= {styles.CustomDesign}>
             <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-            Hey, I'm Aryama 👋
+            Hey, I&apos;m Aryama 👋
         </Typography>
         <Typography variant="body2">
         I work at Walmart Inc. as a Software Developer and write code to build the Delivery Service Platform. I am currently exploring the field of User Experience Design. Besides writing code, I love to paint and watch animated movies and TV shows!
@@ -43,7 +43,7 @@ export default function Home() {
        <Grid item xs={12} md={6}>
         <Card className= {styles.CustomDesign}>
         <CardContent>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2">
             Keep visiting this space 🍿
           </Typography>
         </CardContent>
@@ -54,7 +54,7 @@ export default function Home() {
         
         <CardContent>
          
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2">
             Good things take time. 💡
           </Typography>
         </CardContent>
