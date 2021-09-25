@@ -1,1 +1,1 @@
-Made this website in Next.js, deployed on Vercel.
+Made this website in Next.js.
