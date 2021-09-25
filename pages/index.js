@@ -35,7 +35,7 @@ export default function Home() {
             Hey, I&apos;m Aryama 👋
         </Typography>
         <Typography variant="body2">
-        I work at Walmart Inc. as a Software Developer and write code to build the Delivery Service Platform. I am currently exploring the field of User Experience Design. Besides writing code, I love to paint and watch animated movies and TV shows!
+        I work at Walmart Inc. as a Software Developer and write code to build backend of the Delivery Service Platform. I am currently exploring the field of User Experience Design. Besides writing code, I love to paint and watch animated movies and TV shows!
         </Typography>
             </CardContent>
            
@@ -47,7 +47,7 @@ export default function Home() {
         <CardContent>
           <Typography variant="body2">
             
-          📇 Visit my Github space to check out my latest projects. Collaborations are open! 🤝
+          📇 Visit my <span className={styles.CustomText}> <a href="https://github.com/aryamasinha">Github</a> </span>space to check out my latest projects. Collaborations are open! 🤝
           </Typography>
         </CardContent>
           </Card>
@@ -69,8 +69,8 @@ export default function Home() {
         <Card className= {styles.CustomDesign}>
         <CardContent>
           <Typography variant="body2">
-          📚 I'm currently reading Varsity by Zerodha. <br></br> <br></br>
-            Varsity is an extensive and in-depth collection of stock market and financial lessons created by Karthik Rangappa at Zerodha. It is openly accessible to everyone and is one of the largest financial education resources on the web.
+          📚 I'm currently reading <span className={styles.CustomText}> Varsity </span> by Zerodha. <br></br> <br></br>
+            Varsity is an extensive and in-depth collection of stock market and financial lessons created by Karthik Rangappa at <span className={styles.CustomText}> <a href="https://zerodha.com/">Zerodha.</a> </span> It is openly accessible to everyone and is one of the largest financial education resources on the web.
          
           </Typography>
         </CardContent>
