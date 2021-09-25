@@ -46,13 +46,24 @@ export default function Home() {
         <Card className= {styles.CustomDesign}>
         <CardContent>
           <Typography variant="body2">
-            
           📇 Visit my <span className={styles.CustomText}> <a href="https://github.com/aryamasinha">Github</a> </span>space to check out my latest projects. Collaborations are open! 🤝
           </Typography>
         </CardContent>
           </Card>
           </Grid>
           <br></br>
+          <Grid item xs={12}>
+        <Card className= {styles.CustomDesign}>
+        <CardContent>
+          <Typography variant="body2">
+          🎨 I post pictures of Watercolor paintings occasionally on <span className={styles.CustomText}> <a href="https://www.instagram.com/__ausdruck__">Ausdruck </a> </span>.  
+          <br></br>
+          </Typography>
+        </CardContent>
+          </Card>
+        </Grid>
+
+        <br></br>
           <Grid item xs={12}>
         <Card className= {styles.CustomDesign}>
         <CardContent>
@@ -64,14 +75,28 @@ export default function Home() {
           </Card>
         </Grid>
         </Grid>
+
        <Grid item xs={12} md={6} spacing={2}>
        <Grid item xs={12}>
         <Card className= {styles.CustomDesign}>
         <CardContent>
           <Typography variant="body2">
-          📚 I'm currently reading <span className={styles.CustomText}> Varsity </span> by Zerodha. <br></br> <br></br>
+          📍 Visit my profile on <span className={styles.CustomText}> <a href="https://www.behance.net/aryamasinha"> Behance </a></span> for my upcoming design projects! 
+          </Typography>
+        </CardContent>
+          </Card>
+        </Grid>
+        <br></br>
+          <Grid item xs={12}>
+        <Card className= {styles.CustomDesign}>
+        <CardContent>
+          <Typography variant="body2">
+          
+
+          📚 I'm currently reading <span className={styles.CustomText}> <a href="https://zerodha.com/varsity/"> Varsity </a></span> by Zerodha.<br></br> <br></br>
             Varsity is an extensive and in-depth collection of stock market and financial lessons created by Karthik Rangappa at <span className={styles.CustomText}> <a href="https://zerodha.com/">Zerodha.</a> </span> It is openly accessible to everyone and is one of the largest financial education resources on the web.
          
+          <br></br>
           </Typography>
         </CardContent>
           </Card>
