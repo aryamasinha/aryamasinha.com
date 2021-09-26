@@ -63,7 +63,7 @@ export default function Home() {
           </Card>
         </Grid>
 
-        <br></br>
+      {/*  <br></br>
           <Grid item xs={12}>
         <Card className= {styles.CustomDesign}>
         <CardContent>
@@ -73,7 +73,7 @@ export default function Home() {
           </Typography>
         </CardContent>
           </Card>
-        </Grid>
+        </Grid> */}
         </Grid>
 
        <Grid item xs={12} md={6} spacing={2}>
@@ -102,7 +102,7 @@ export default function Home() {
           </Card>
         </Grid>
         <br></br>
-        
+        {/*
         <Grid item xs={12}>
         <Card className= {styles.CustomDesign}>
         <CardContent>
@@ -112,7 +112,7 @@ export default function Home() {
           </Typography>
         </CardContent>
           </Card>
-        </Grid>
+        </Grid> */}
       </Grid>
       </Grid>
     </Container>
