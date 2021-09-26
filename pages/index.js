@@ -35,7 +35,7 @@ export default function Home() {
             Hey, I&apos;m Aryama 👋
         </Typography>
         <Typography variant="body2">
-        I work at Walmart Inc. as a Software Developer and write code to build backend of the Delivery Service Platform. I am currently exploring the field of User Experience Design. Besides writing code, I love to paint and watch animated movies and TV shows!
+        I work at <span className={styles.CustomText}> <a href="https://www.walmart.com/"> Walmart Inc. </a> </span>  as a Software Developer and write code to build backend of the Delivery Service Platform. I am currently exploring the field of User Experience Design. Besides writing code, I love to paint and watch animated movies and TV shows!
         </Typography>
             </CardContent>
            
