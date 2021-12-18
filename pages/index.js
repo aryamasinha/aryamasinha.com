@@ -45,6 +45,13 @@ export default function Home() {
         <Grid item xs={12}>
         <Card className= {styles.CustomDesign}>
         <CardContent>
+        <center>
+          <Image
+      src="/1.jpg"
+      alt="img"
+      width={150}
+      height={150}
+    /></center>
           <Typography variant="body2">
           📇 Visit my <span className={styles.CustomText}> <a href="https://github.com/aryamasinha">Github</a> </span>space to check out my latest projects. Collaborations are open! 🤝
           </Typography>
@@ -53,12 +60,18 @@ export default function Home() {
           </Grid>
           <br></br>
           <Grid item xs={12}>
-        <Card className= {styles.CustomDesign}>
+        <Card className= {styles.CustomDesign2}>
         <CardContent>
           <Typography variant="body2">
           🎨 I post pictures of Watercolor paintings occasionally on <span className={styles.CustomText}> <a href="https://www.instagram.com/__ausdruck__">Ausdruck </a> </span>.  
-          <br></br>
           </Typography>
+          <center>
+          <Image
+      src="/3.png"
+      alt="img"
+      width={250}
+      height={250}
+    /></center>
         </CardContent>
           </Card>
         </Grid>
