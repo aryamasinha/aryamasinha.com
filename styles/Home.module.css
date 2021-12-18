@@ -124,7 +124,7 @@
   background-color: #000000 !important;
   color: #ffffff !important;
   border-radius: 1rem !important;
-  
+  align-content: center !important;
 }
 
 .CustomButtonDesign{
@@ -144,4 +144,27 @@
   color: #000000 !important;
   border-radius: 1rem !important;
   
+}
+
+.CustomDesign3{
+  background-color: #FBFFE2 !important;
+  color: #000000 !important;
+  border-radius: 1rem !important;
+  
+}
+
+.customButton{
+  background-color: #383838 !important;
+  color: #ffffff !important;
+  border-radius: 1rem !important;
+  padding: 1rem !important;
+}
+
+.customInput{
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border-radius: 1rem !important;
+  border-color: gray;
+  padding: 1rem !important;
+  margin-right: 5% !important;
 }

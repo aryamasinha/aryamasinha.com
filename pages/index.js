@@ -19,6 +19,7 @@ import styles from '../styles/Home.module.css'
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 
+
 export default function Home() {
   return (
     <div>
@@ -66,12 +67,12 @@ export default function Home() {
           🎨 I post pictures of Watercolor paintings occasionally on <span className={styles.CustomText}> <a href="https://www.instagram.com/__ausdruck__">Ausdruck </a> </span>.  
           </Typography>
           <center>
-          <Image
+          {/*<Image
       src="/3.png"
       alt="img"
       width={250}
       height={250}
-    /></center>
+          /> */}</center>
         </CardContent>
           </Card>
         </Grid>
@@ -83,6 +84,9 @@ export default function Home() {
           <Typography variant="body2">
           📮 Subscribe to receive my (very rare) notes and updates via email: 
           <br></br>
+          <br></br>
+          <input className={styles.customInput} placeholder="your@email.com"></input> 
+          <span className={styles.customButton}> Subscribe  </span>
           </Typography>
         </CardContent>
           </Card>
@@ -91,7 +95,7 @@ export default function Home() {
 
        <Grid item xs={12} md={6} spacing={2}>
        <Grid item xs={12}>
-        <Card className= {styles.CustomDesign}>
+        <Card className= {styles.CustomDesign3}>
         <CardContent>
           <Typography variant="body2">
           📍 Visit my profile on <span className={styles.CustomText}> <a href="https://www.behance.net/aryamasinha"> Behance </a></span> for my upcoming design projects! 
@@ -119,10 +123,18 @@ export default function Home() {
         <Grid item xs={12}>
         <Card className= {styles.CustomDesign}>
         <CardContent>
+          <center>
           <Typography variant="body2">
           Where you can reach me 👇 
+      
         
           </Typography>
+          <br>
+          </br>
+          <div className={styles.customButton}>Say hi on Twitter</div>
+          <br></br>
+          <div className={styles.customButton}>Drop me a line</div>
+          </center>
         </CardContent>
           </Card>
         </Grid> 
