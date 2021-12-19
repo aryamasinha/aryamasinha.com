@@ -47,12 +47,13 @@ export default function Home() {
         <Card className= {styles.CustomDesign}>
         <CardContent>
         <center>
+        <a href="https://github.com/aryamasinha">
           <Image
       src="/1.jpg"
       alt="img"
       width={150}
       height={150}
-    /></center>
+    /></a></center>
           <Typography variant="body2">
           📇 Visit my <span className={styles.CustomText}> <a href="https://github.com/aryamasinha">Github</a> </span>space to check out my latest projects. Collaborations are open! 🤝
           </Typography>
@@ -85,8 +86,13 @@ export default function Home() {
           📮 Subscribe to receive my (very rare) notes and updates via email: 
           <br></br>
           <br></br>
+          
           <input className={styles.customInput} placeholder="your@email.com"></input> 
-          <span className={styles.customButton}> Subscribe  </span>
+          <br></br>
+          <br></br>
+          <center>
+          <div className={styles.customButton}>Subscribe</div>
+          </center>
           </Typography>
         </CardContent>
           </Card>
@@ -131,7 +137,8 @@ export default function Home() {
           </Typography>
           <br>
           </br>
-          <div className={styles.customButton}>Say hi on Twitter</div>
+          <a href="https://twitter.com/Aryamasinha">
+          <div className={styles.customButton}>Say hi on Twitter</div></a>
           <br></br>
           <div className={styles.customButton}>Drop me a line</div>
           </center>
