@@ -117,7 +117,7 @@ export default function Home() {
           
 
           📚 I'm currently reading <span className={styles.CustomText}> <a href="https://medium.com/@nina.semczuk/5-lifelong-lessons-from-the-magic-of-thinking-big-by-david-schwartz-6b33f5b21fae/"> The Magic Of Thinking Big </a></span> by David Joseph Schwartz.<br></br> <br></br>
-            What do you need in order to become successful? Is it talent or intellect or is it just a habit of thinking in such a way that all you’ve ever wanted will be sitting right in front of you? Dr. Schwartz has put together a few useful methods to achieve all those things you want but never dared to get
+            What do you need in order to become successful? Is it talent or intellect or is it just a habit of thinking in such a way that all you’ve ever wanted will be sitting right in front of you? Dr. Schwartz has put together a few useful methods to achieve all those things you want but never dared to get.
          
           <br></br>
           </Typography>
@@ -140,7 +140,7 @@ export default function Home() {
           <a href="https://twitter.com/Aryamasinha">
           <div className={styles.customButton}>Say hi on Twitter</div></a>
           <br></br>
-          <div className={styles.customButton}>Drop me a line</div>
+          <div className={styles.customButton} onClick={() => window.location = 'mailto:aryamasinha864@gmail.com'}>Drop me a line</div>
           </center>
         </CardContent>
           </Card>
