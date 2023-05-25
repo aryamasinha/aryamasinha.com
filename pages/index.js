@@ -36,7 +36,7 @@ export default function Home() {
             Hey, I&apos;m Aryama 👋
         </Typography>
         <Typography variant="body2">
-        I work as a Software Developer and write code to build backend of the Delivery Service Platform. I am currently exploring the field of User Experience Design. Besides writing code, I love to paint and watch animated movies and TV shows !
+        I work as a Software Developer and write code to build backend of a Delivery Service Platform. I am currently exploring the field of User Experience Design. Besides writing code, I love to paint and watch animated movies and TV shows.
         </Typography>
             </CardContent>
            
@@ -65,7 +65,7 @@ export default function Home() {
         <Card className= {styles.CustomDesign2}>
         <CardContent>
           <Typography variant="body2">
-          🎨 I post pictures of Watercolor paintings occasionally on <span className={styles.CustomText}> <a href="https://www.instagram.com/__ausdruck__">Ausdruck </a> </span>.  
+          🎨 I post pictures of Watercolor paintings occasionally on <span className={styles.CustomText}> <a href="https://www.instagram.com/__ausdruck__">Ausdruck </a> </span> 
           </Typography>
           <center>
           {/*<Image
@@ -104,7 +104,7 @@ export default function Home() {
         <Card className= {styles.CustomDesign3}>
         <CardContent>
           <Typography variant="body2">
-          📍 Visit my profile on <span className={styles.CustomText}> <a href="https://www.behance.net/aryamasinha"> Behance </a></span> for my upcoming design projects! 
+          📍 Visit my profile on <span className={styles.CustomText}> <a href="https://www.behance.net/aryamasinha"> Behance </a></span> for my upcoming design projects.
           </Typography>
         </CardContent>
           </Card>
@@ -116,8 +116,8 @@ export default function Home() {
           <Typography variant="body2">
           
 
-          📚 I'm currently reading <span className={styles.CustomText}> <a href="https://zerodha.com/varsity/"> Varsity </a></span> by Zerodha.<br></br> <br></br>
-            Varsity is an extensive and in-depth collection of stock market and financial lessons created by Karthik Rangappa at <span className={styles.CustomText}> <a href="https://zerodha.com/">Zerodha.</a> </span> It is openly accessible to everyone and is one of the largest financial education resources on the web.
+          📚 I'm currently reading <span className={styles.CustomText}> <a href="https://medium.com/@nina.semczuk/5-lifelong-lessons-from-the-magic-of-thinking-big-by-david-schwartz-6b33f5b21fae/"> The Magic Of Thinking Big </a></span> by David Joseph Schwartz.<br></br> <br></br>
+            What do you need in order to become successful? Is it talent or intellect or is it just a habit of thinking in such a way that all you’ve ever wanted will be sitting right in front of you? Dr. Schwartz has put together a few useful methods to achieve all those things you want but never dared to get
          
           <br></br>
           </Typography>
