@@ -91,7 +91,8 @@ export default function Home() {
           <br></br>
           <br></br>
           <center>
-          <div className={styles.customButton}>Subscribe</div>
+            <a>
+          <div className={styles.customButton}>Subscribe</div></a>
           </center>
           </Typography>
         </CardContent>
